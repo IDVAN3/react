@@ -1,0 +1,20 @@
+.Header {
+  &__user {
+    display: flex;
+    text-align: left;
+    background-color: #1c2839;
+    padding: 0.375rem 0.75rem;
+    color: white;
+    font-size: 14px;
+    align-items: center;
+
+    span {
+      margin-right: 5px;
+    }
+  }
+
+  .ant-avatar {
+    flex: 1 0 auto;
+    margin-right: 10px;
+  }
+}

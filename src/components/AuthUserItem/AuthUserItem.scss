@@ -1,0 +1,43 @@
+.AuthUserItem {
+  display: flex;
+  margin-bottom: 10px;
+  align-items: flex-start;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  &__container {
+    margin-left: 15px;
+  }
+
+  &__wrap {
+    display: flex;
+  }
+
+  &__label {
+    font-weight: 500;
+    margin-right: 4px;
+  }
+
+  &:hover {
+    background-color: #f1f1f1;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &__avatar {
+    background-color: #1890ff;
+    flex: 1 0 auto;
+    max-width: 55px;
+  }
+
+  &__name {
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 1;
+    margin-bottom: 5px;
+  }
+}

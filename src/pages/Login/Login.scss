@@ -1,0 +1,68 @@
+.Login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 15px;
+
+  &__logo {
+    width: 220px;
+    margin-right: 20px;
+
+    img {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  &__form {
+    padding: 30px 20px;
+    background-color: #fff;
+    max-width: 530px;
+    flex: 1;
+    border-radius: 5px;
+  }
+
+  .ant-col {
+    width: 100%;
+  }
+
+  .ant-form-item-label {
+    text-align: left;
+  }
+
+  .ant-form-item:last-child {
+    margin-bottom: 0;
+  }
+
+  .ant-form-item-label > label {
+    height: auto;
+  }
+
+  .ant-input,
+  .ant-input-affix-wrapper {
+    padding: 8px 11px;
+  }
+
+  &__title {
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-weight: 500;
+    line-height: 1;
+  }
+
+  &__col {
+    margin-bottom: 10px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    &-title {
+      margin-bottom: 5px;
+      font-size: 16px;
+      font-weight: 500;
+    }
+  }
+}
